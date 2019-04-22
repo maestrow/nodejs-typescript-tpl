@@ -9,6 +9,7 @@
     "allowSyntheticDefaultImports": false,
     "jsx": "react",
     "allowJs": true,
+    "outDir": "dist"
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
 }
