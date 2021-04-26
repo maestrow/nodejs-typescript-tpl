@@ -11,8 +11,8 @@
     "allowJs": true,
     "baseUrl": "./src",
     "paths": {
-      "@src/*": [
-        "../../../../../../../prj/render-platform/repo/frontend/src/*"
+      "@utils/*": [
+        "../utils/*"
       ]
     },
     "outDir": "dist"
