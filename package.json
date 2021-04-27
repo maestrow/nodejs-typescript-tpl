@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node -r tsconfig-paths/register",
     "build": "webpack --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:prod": "webpack --mode production",
+    "tsc": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +16,7 @@
     "clean-webpack-plugin": "4.0.0-alpha.0",
     "ts-loader": "^9.1.1",
     "ts-node": "^9.1.1",
-    "tsc": "^1.20150623.0",
+    "tsconfig-paths": "^3.9.0",
     "tsconfig-paths-webpack-plugin": "^3.5.1",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",

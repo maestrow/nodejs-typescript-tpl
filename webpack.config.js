@@ -4,10 +4,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const getPath = (relative) => path.join(__dirname, relative);
 
-module.exports = {
+module.exports = env => ({
   context: getPath(''),
   entry: {
-    main: "./src/sample1.ts"
+    main: env.src
   },
   devtool: "source-map",
   resolve: {
@@ -33,4 +33,4 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
   ]
-};
+});
