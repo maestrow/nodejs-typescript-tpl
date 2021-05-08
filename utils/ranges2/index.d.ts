@@ -1,0 +1,1 @@
+export function numberListToRanges(numbers: number[]): Array<number | [number, number]>;
